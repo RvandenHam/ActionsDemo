@@ -8,5 +8,7 @@ jobs:
       - name: Greet the world!
         run: date
       # ADD SOME CUSTOM UNIQUE CODE HERE!!!!
+      - name: Print hello
+        run: echo "Hi there!"
       - name: Printing job status
         run: echo "🍏 This job's status is ${{ job.status }}."
